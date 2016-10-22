@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <form class="" action="model.php" method="post">
+    <input type="text" name="produto_name" placeholder="produto..." onblur="pesquisaProduto(this.form)">
+    <br>
+    <input type="text" name="produto_preco" placeholder="preco..." onblur="pesquisaProduto(this.form)">
+    <br>
+    <input type="button" name="btn" onclick="pesquisaProduto(this.form);" value="Pesquisa">
+  </form>
+  <div class="" id="listaProduto">
+
+  </div>
+  </body>
+</html>
